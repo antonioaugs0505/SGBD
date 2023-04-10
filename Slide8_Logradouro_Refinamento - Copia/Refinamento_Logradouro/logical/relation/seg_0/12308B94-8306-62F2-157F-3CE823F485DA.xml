@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_LOGRAD_HOSP" directorySegmentName="seg_0" id="12308B94-8306-62F2-157F-3CE823F485DA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:22:45 UTC</createdTime>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>CAC38B00-31A4-2DC1-1A57-0768C14386F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF36AE33-0C04-3207-A42D-300BDBCD0474</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47C75438-70D2-DF01-1336-9771340E4070</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

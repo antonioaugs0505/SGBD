@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6F1E54E-0D18-5454-AF53-1FC6905B0ECB" name="T_RHSTU_MEDICO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>5F477709-1835-BF78-2C6F-0805B23D6DDF</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_MEDICO" id="26017D37-6BEA-4359-53BE-3A62478E8B12">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>1B9CB403-E629-65E7-585F-DA2527A66279</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MEDICO" id="263DBDCB-449F-C9F5-BDB2-31FDB6040894">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>9F8A8943-EB44-C4BB-BB3B-CAF1874252E0</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CRM" id="505132AC-3DCE-290E-E5AE-0A452CD3558E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>4DF2C6EE-69D0-134A-D06B-0D24B5EF3009</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESPECIALIDADE" id="F52B20CB-9CC6-2CC2-3130-B249028B90D6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>2EAED291-978F-DBE1-D669-D125320D27BB</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4216132C-417A-0D6A-35FD-4F9B30DF1245" name="PK_RHSTU_MEDICO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>42357FD1-4EB3-2628-0F66-ABEEA687B1EC</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26017D37-6BEA-4359-53BE-3A62478E8B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

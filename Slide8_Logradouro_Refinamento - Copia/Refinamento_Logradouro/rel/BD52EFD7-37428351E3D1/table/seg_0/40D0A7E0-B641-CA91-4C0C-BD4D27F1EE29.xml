@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40D0A7E0-B641-CA91-4C0C-BD4D27F1EE29" name="T_RHSTU_CONSULTA_FORMA_PAGTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>59D118B8-7019-669A-9873-2AC021E05E28</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA_FORMA_PAGTO" id="BEEBF115-01B7-42BC-3C31-BE65AB5BA5F8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_UNID_HOSPITAL" id="AB56AC6C-333F-2788-1C63-BDAB44B9F6EB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>A63EF0B2-598C-0448-3391-36D2DBC1D967</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D738CD3D-6C30-04D6-F848-3D65E427C896" referredColumn="EF73BF4B-5FA0-2B45-23B9-6F3057253E53"/>
+</associations>
+</Column>
+<Column name="NR_CONSULTA" id="45121C47-9E5C-BFCB-C7AF-BD4CD860CC20">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>6554A93E-DE91-0FA3-8926-1F3FD93F3461</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D738CD3D-6C30-04D6-F848-3D65E427C896" referredColumn="A5359A58-0B99-AC1C-5BF6-AFC17F4F34DA"/>
+</associations>
+</Column>
+<Column name="ID_PACIENTE_PS" id="02CE16FA-7D95-3A19-8F43-95738634E403">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>0FC65912-F2DB-98ED-A075-BF269EC95DB0</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="399F0562-8061-BF2F-0651-D89DAB62B079" referredColumn="AE77525D-CF20-250B-F955-7F92C9490F71"/>
+</associations>
+</Column>
+<Column name="ID_FORMA_PAGTO" id="36600EED-881C-6653-23F5-93C3D28EDDED">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>C59846D1-F01F-E630-E8DB-297DF9A0D1EC</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7614C65-721D-2E6F-AF43-D7D9A7C97060" referredColumn="24E84F1B-2019-2ACD-48E5-9622EB576BB8"/>
+</associations>
+</Column>
+<Column name="DT_CADASTRO" id="CD3AD016-66CF-80D4-A547-91547B86EC5B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>7C3AE8C3-DDE9-3085-0DF2-D698332961A1</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PAGTO_CONSULTA" id="523D68D6-25FE-2743-BF6B-9F0530E03E5A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>8709A8DE-98E3-AE00-1CDB-67B46CB51A0D</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_PAGTO_CONSULTA" id="BDCF118D-74CF-4EBF-D461-7EA21968756B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>556A88F4-8D9A-922B-163C-6285FBED8787</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<constraintName>UK_RHSTU_STATUS_PAGTO_PACI</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Pagamento em aberto."/>
+<valueDef value="C" description="Pagamento  cancelado."/>
+<valueDef value="P" description="Pagamento confirmado e Ok!"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C02F0E0-0AF9-8903-22B0-C7E919528F09" name="PK_RHSTU_CONSULTA_FORMA_PAGTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>668CF5F0-C569-ACDC-0D79-CEF91E54611E</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEEBF115-01B7-42BC-3C31-BE65AB5BA5F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="712ED459-C224-D03D-1784-64EB89A67387" name="FK_STU_CONSULTA_FORMA_PAGTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>A0FB73A1-88E6-4FBA-DFED-E3093E46A5B6</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45121C47-9E5C-BFCB-C7AF-BD4CD860CC20"/>
+<colUsage columnID="AB56AC6C-333F-2788-1C63-BDAB44B9F6EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B7F57E1-CDA0-D51E-CA64-500E8AB53032" name="FK_STU_FORMA_PAGTO_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>33B1FD0C-37C4-29F6-FEE9-93488DD3F096</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36600EED-881C-6653-23F5-93C3D28EDDED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B8E768C-A406-0F7D-572C-4F27BBFA5333" name="FK_STU_PAC_PS_CNST_FP">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>3D0808C1-511C-F645-3C01-0FFE93B42EB6</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CE16FA-7D95-3A19-8F43-95738634E403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

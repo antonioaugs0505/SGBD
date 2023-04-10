@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB3605F8-0F82-C7EF-B5E1-969EEB0972CB" name="T_RHSTU_UNID_HOSPITALAR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>8A769596-8442-81C5-8E8B-9FFE4C17B2D7</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNID_HOSPITAL" id="E45A9E8C-1A9E-81DA-8D8C-B2ADFFCD21A8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>C3796F42-602F-5AE2-4BB7-9B2AE3D1F6B4</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LOGRADOURO" id="ADCD7A37-ADDF-2D67-B348-908157028229">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<generatorID>8745202E-085D-28B9-1FC3-91269C21AFE0</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F0CA458-EFFD-8D41-3FBA-E0799AEF4B31" referredColumn="FB5B461A-F05B-92EB-01B1-BD2D605C60CC"/>
+</associations>
+</Column>
+<Column name="NM_UNID_HOSPITALAR" id="DA3A0B89-0A09-E4EC-657E-BA7A7A42B76B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>C6A15613-6831-D4DB-312C-D304AA94D315</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_RAZAO_SOCIAL_UNID_HOSP" id="0B16A6E1-13E8-35B6-BA81-AA53231DDDEC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>A4261440-ADDF-8394-22C5-FB3922BF7F38</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FUNDACAO" id="ED473035-33FF-398E-F4E8-00130D17D700">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>39CDA9CB-A12F-65FE-6560-0F46BCA8CC9E</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_LOGRADOURO" id="471A53AA-8B02-0AFC-31FF-FA1DE07600EE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do logradouro do endereco da Unidade Hospitalar.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do logradouro do endereco da Unidade Hospitalar.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>BEFA1CDF-6BBD-BDF9-8E64-507D81834812</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_COMPLEMENTO_NUMERO" id="42D30D0F-A5AA-DED9-EFA0-06A9FEE4471A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco da Unidade Hospitalar caso ele exista. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco da Unidade Hospitalar caso ele exista. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>D1C782A3-3034-DBD3-D18D-AF95A37D169B</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PONTO_REFERENCIA" id="B8B27F99-D5FD-109A-41D2-38AA01891D58">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco da Unidade Hospitalar.]]></commentInRDBMS>
+<generatorID>9205F067-F98B-4C26-682B-85E0CC2C88EB</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="CE74E99F-DC29-265F-3AA8-C0A50B6AAD3C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data inicio do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data inicio do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></commentInRDBMS>
+<generatorID>F3F226C7-837E-2916-32F9-ABEDED13AC27</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="34D4A494-0AE4-3EFA-86BA-54B6C8176F54">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data término  do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é opcional..]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data término  do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>53F31854-0505-D242-7123-51F4FB4786D6</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D62CE928-723C-DD38-B97D-731A24FD7ABA" name="PK_RHSTU_UNI_HOSP_END">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>D6771B1E-419B-D345-0A01-83C5F181A2D9</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E45A9E8C-1A9E-81DA-8D8C-B2ADFFCD21A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA44A424-BD02-9B1E-2AB5-18751E79D848" name="FK_LOGR_END_UNID_HOSPITALAR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>C9AA404F-3F73-B562-BF2E-D5A73690E21C</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADCD7A37-ADDF-2D67-B348-908157028229"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

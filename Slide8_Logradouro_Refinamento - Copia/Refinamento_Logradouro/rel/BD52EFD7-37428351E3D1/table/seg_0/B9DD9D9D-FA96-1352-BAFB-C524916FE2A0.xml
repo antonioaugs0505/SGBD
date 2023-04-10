@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9DD9D9D-FA96-1352-BAFB-C524916FE2A0" name="T_RHSTU_FORMA_PAGAMENTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>4E669F69-BDAD-1338-53E6-A52CD1549F1D</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FORMA_PAGTO" id="24E84F1B-2019-2ACD-48E5-9622EB576BB8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>4E218399-9591-8C64-43AD-E05DDEC8D090</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_FORMA_PAGTO" id="18BD7ECB-1785-7C0D-F544-8FDC7D4F89C9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>87261BC3-BA83-EECF-A27E-BD77C33BEDDB</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_FORMA_PAGTO" id="F3B7F448-4A4B-2DE5-722F-75E19093E37F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>E17893FB-C6B7-0BF6-4991-7FE9BAE4DE41</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_FORMA_PAGTO" id="C671B92A-8145-FA5E-A991-A797790D8CDC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>61755199-4F7A-4252-D061-4ABFD3F1B410</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<constraintName>UK_RHSTU_STATUS_FORMA_PAGTO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Forma de pagamento Ativa e operante."/>
+<valueDef value="I" description="Forma de pagamento inativa."/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E584F635-DDB7-3E03-9391-04D0513A70CA" name="PK_RHSTU_FORMA_PAGTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>55F73CDA-78DE-9172-EC31-1DE605267B8F</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E84F1B-2019-2ACD-48E5-9622EB576BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

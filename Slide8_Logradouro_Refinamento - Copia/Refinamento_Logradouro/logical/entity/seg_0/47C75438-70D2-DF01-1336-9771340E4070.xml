@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47C75438-70D2-DF01-1336-9771340E4070" name="PK_RHSTU_ENDERECO_HOSPITAL">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_END_HOSPITAL" id="6FC45692-90AB-7A19-61A4-6F3E51A785A1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do endereco do hospital. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do endereco do hospital. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNID_HOSPITAL" id="10888C48-CD81-2C7A-3823-66C93A1425CC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:23:17 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>37A543E5-E7E4-F0F3-EEE2-79E8573E6D9F</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>C3796F42-602F-5AE2-4BB7-9B2AE3D1F6B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LOGRADOURO" id="D03D27CC-D027-D255-BB23-994E89B60870">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:22:45 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<generatorID>12308B94-8306-62F2-157F-3CE823F485DA</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>6AE78D81-1655-3825-3B5F-64B2D9C0E214</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="B202B3B3-9720-B635-5DEA-45ADEB3C262F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do logradouro do endereco do hospital.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do logradouro do endereco do hospital.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_NUMERO" id="9E33C538-6A3B-3606-BEE5-C03988F1082B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco do hospital caso ele exista. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco do hospital caso ele exista. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PONTO_REFERENCIA" id="5E51363D-5B90-12C3-DCEF-CE461E7F21EF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do hospital.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do hospital.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="0CF6F005-8F89-6751-A20B-020B4C1DD7D7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data inicio do hospital  associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data inicio do hospital  associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></commentInRDBMS>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="1C8EEC5A-1D4F-7FA3-B8E5-78A9D5928F22">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data fim do hospital associado ao endereço (logradouro), ou seja, ele não reside mais nesse endereço.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data fim do hospital associado ao endereço (logradouro), ou seja, ele não reside mais nesse endereço.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="802195F2-133F-314E-E992-3DB618E6A36E" name="PK_RHSTU_END_HOSPITAL">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-03-25 19:20:48 UTC</createdTime>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6FC45692-90AB-7A19-61A4-6F3E51A785A1</newElementsIDs>
+<usedAttributes>
+<attributeRef>6FC45692-90AB-7A19-61A4-6F3E51A785A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

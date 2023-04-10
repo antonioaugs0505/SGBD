@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEE632CF-0535-3BD7-53B8-46CD659E6764" name="T_RHSTU_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>31723517-2989-D028-7B9E-D4C226A4767D</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNID_HOSPITAL" id="EF73BF4B-5FA0-2B45-23B9-6F3057253E53">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>B6C488CB-AE82-A793-0536-0FCACEBB3861</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B498FFB-60C7-E96A-DF05-66810CFA9FE9" referredColumn="E45A9E8C-1A9E-81DA-8D8C-B2ADFFCD21A8"/>
+</associations>
+</Column>
+<Column name="NR_CONSULTA" id="A5359A58-0B99-AC1C-5BF6-AFC17F4F34DA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>4DC2BBD4-5844-F984-AA0B-B83576D7F211</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="75A6D93E-5CEB-D1AC-F982-E0F4815E03F6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>AE16BCCF-B954-6824-F7DB-300D2318D9B2</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39AE9B68-66C2-ED79-6547-81AA95FC4473" referredColumn="FF9E1A8F-60E6-2948-04A6-A087017D5681"/>
+</associations>
+</Column>
+<Column name="CD_MEDICO" id="367631C4-BC5B-4168-4F4D-A8609FD7B660">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>4ADC3A8B-EDCB-8300-F9D5-2595EE930581</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8661BF22-D3F0-2067-D6B7-00C88D04FD92" referredColumn="26017D37-6BEA-4359-53BE-3A62478E8B12"/>
+</associations>
+</Column>
+<Column name="DT_HR_CONSULTA" id="F1F729AF-CE2F-4885-F2A0-64A310E81EB2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>E984FC82-E115-71C8-5FDA-85BB1A35804F</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CONSULTORIO" id="D0BD2F6D-758D-E5BE-0DE1-6F9C0CB17962">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>27D923EF-8051-DAC9-6DAC-2BE39E00AAB0</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D81DC87E-6FF8-612F-D496-16FB4CA61807" name="PK_RHSTU_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>94012AC5-2823-C905-42C8-C02D1BAAFCE4</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5359A58-0B99-AC1C-5BF6-AFC17F4F34DA"/>
+<colUsage columnID="EF73BF4B-5FA0-2B45-23B9-6F3057253E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CC3D77F-DDF5-2AC8-37EB-C450DC834499" name="FK_RHSTU_UNID_HOSP_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF73BF4B-5FA0-2B45-23B9-6F3057253E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA6A89E6-0396-1DF4-0E90-A936CC18611B" name="FK_STU_MED_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="367631C4-BC5B-4168-4F4D-A8609FD7B660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADFCDEE3-1AD8-7CEB-9D37-D767306A02A4" name="FK_STU_PAC_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>911D582F-E5D9-B53A-08A1-2336487045C2</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75A6D93E-5CEB-D1AC-F982-E0F4815E03F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

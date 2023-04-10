@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D738CD3D-6C30-04D6-F848-3D65E427C896" containerWithKeyObject="40D0A7E0-B641-CA91-4C0C-BD4D27F1EE29" localFKIndex="712ED459-C224-D03D-1784-64EB89A67387" name="FK_STU_CONSULTA_FORMA_PAGTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-08 20:42:05 UTC</createdTime>
+<generatorID>A0FB73A1-88E6-4FBA-DFED-E3093E46A5B6</generatorID>
+<ownerDesignName>Refinamento_Logradouro</ownerDesignName>
+<referredTableLongName>T_RHSTU_CONSULTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEE632CF-0535-3BD7-53B8-46CD659E6764</referredTableID>
+<keyObject>D81DC87E-6FF8-612F-D496-16FB4CA61807</keyObject>
+<referredKeyID>D81DC87E-6FF8-612F-D496-16FB4CA61807</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NR_CONSULTA,ID_UNID_HOSPITAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
